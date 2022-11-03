@@ -59,30 +59,61 @@ D7 = X Y Z
 
 
 
-### PROGRAM 
+### PROGRAM :
+```
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Gayathri A
+RegisterNumber:  212221230028
 */
+# ENCODER:
+module ex008(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input d0,d1,d2,d3,d4,d5,d6,d7;
+output a,b,c;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
+
+# DECODER :
+module ex8(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0=(~a&~b&~c); 
+assign d1=(~a&~b&c);
+assign d2=(~a&b&~c);
+assign d3=(~a&b&c);
+assign d4=(a&~b&~c);
+assign d5=(a&~b&c);
+assign d6=(a&b&~c);
+assign d7=(a&b&c);
+endmodule
+```
+
+
+### RTL LOGIC :
+
+![ge1](https://user-images.githubusercontent.com/94154854/199724331-6dbfd48b-22f6-48fc-9634-8d48034cc7d1.png)
+
+
+![gd1](https://user-images.githubusercontent.com/94154854/199724280-467eab59-30e9-42d6-86f6-810c869dc7c7.png)
 
 
 
 
 
 
-### RTL LOGIC  
 
 
+### TIMING DIGRAMS  :
 
+![ge2](https://user-images.githubusercontent.com/94154854/199724413-5336ed0c-cd9a-4aa2-a5ff-3d4831e56c31.png)
 
+![ge3](https://user-images.githubusercontent.com/94154854/199724448-22782dd9-f527-4b7f-8a5c-5912a0049975.png)
 
+![ge4](https://user-images.githubusercontent.com/94154854/199724494-f834b01d-c1bf-405a-9ce0-b40a24242972.png)
 
-
-
-### TIMING DIGRAMS  
-
-
+![gd2](https://user-images.githubusercontent.com/94154854/199724527-81c9d4ce-1708-474a-8180-71da4536556a.png)
 
 
 
