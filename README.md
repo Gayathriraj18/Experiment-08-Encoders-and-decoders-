@@ -103,8 +103,11 @@ endmodule
 
 ### RTL LOGIC :
 
+# ENCODER :
+
 ![ge1](https://user-images.githubusercontent.com/94154854/199724331-6dbfd48b-22f6-48fc-9634-8d48034cc7d1.png)
 
+# DECODER :
 
 ![gd1](https://user-images.githubusercontent.com/94154854/199724280-467eab59-30e9-42d6-86f6-810c869dc7c7.png)
 
