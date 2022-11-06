@@ -117,11 +117,17 @@ endmodule
 
 
 
-### TRUTH TABLE 
+### TRUTH TABLE :
+
+# ENCODER :
+
+![gt1](https://user-images.githubusercontent.com/94154854/200151836-0b8a17f7-6cb2-47eb-8674-4591be8d5dab.png)
 
 
+#DECODER :
 
+![gt2](https://user-images.githubusercontent.com/94154854/200151846-20dd1909-06cd-41a8-80e8-41ba0b024679.png)
 
+### RESULTS :
 
-
-### RESULTS 
+To implement 8 to 3 Encoder and 3to8 Decoder using verilog is successfully done.
