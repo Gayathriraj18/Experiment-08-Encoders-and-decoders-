@@ -107,11 +107,17 @@ endmodule
 
 ### TIMING DIGRAMS  :
 
-![ge2](https://user-images.githubusercontent.com/94154854/199724413-5336ed0c-cd9a-4aa2-a5ff-3d4831e56c31.png)
+# ENCODER :
 
-![ge3](https://user-images.githubusercontent.com/94154854/199724448-22782dd9-f527-4b7f-8a5c-5912a0049975.png)
+![GE1](https://user-images.githubusercontent.com/94154854/200151911-368f827b-ba8b-41bc-99ed-d7f65d0460a4.png)
 
-![ge4](https://user-images.githubusercontent.com/94154854/199724494-f834b01d-c1bf-405a-9ce0-b40a24242972.png)
+![GE2](https://user-images.githubusercontent.com/94154854/200151914-e41ad525-2eb9-4917-bca1-58a1d4269fac.png)
+
+![GE3](https://user-images.githubusercontent.com/94154854/200151915-a6580cad-de2d-4ca1-9fa3-b1362a91c66b.png)
+
+
+
+# DECODER :
 
 ![gd2](https://user-images.githubusercontent.com/94154854/199724527-81c9d4ce-1708-474a-8180-71da4536556a.png)
 
